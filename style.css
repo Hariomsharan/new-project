@@ -1,0 +1,299 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: product sans;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://images.unsplash.com/photo-1573398643956-2b9e6ade3456?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1934&q=80);
+    background-position: center;
+    background-size: cover;
+}
+
+#overly{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.493);
+}
+
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+
+#links{
+    display: flex;
+    align-items: center;
+}
+
+#links h2{
+    color: #fff;
+    margin-right: 60px;
+}
+
+#links a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin-left: 40px;
+    color: #fff;
+}
+
+#icons i{
+    color: #fff;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+#heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 600px;
+}
+
+#heading h1{
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 50px;
+    color: #fff;
+}
+
+#heading p{
+    font-size: 12px;
+    color: rgb(224, 224, 224);
+    text-align: center;
+    margin-top: 15px;
+}
+
+#heading button{
+    padding: 5px 25px;
+    border-radius: 50px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    margin-top: 30px;
+}
+
+
+
+#bg1{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+}
+
+#head{
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    text-align: center;
+}
+
+#head h2{
+    font-size: 40px;
+    color: rgb(27, 27, 27);
+}
+
+#head p{
+    font-size: 13px;
+    color: rgb(114, 114, 114);
+    margin-top: 10px
+}
+
+#places{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%,0%);
+    width: 65%;
+    height: 500px;
+}
+
+#maldives{
+    width: 300px;
+    height: 450px;
+    background-image: url(https://images.unsplash.com/photo-1512100254544-47340ba56b5d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1900&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#maldives #name{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin-top:410px;
+    background-color: rgb(255, 255, 255);
+}
+
+#maldives #name i{
+    color: grey;
+    margin-left: 10px;
+}
+
+#maldives #name h5{
+    color: grey;
+    margin-left: 10px;
+}
+
+#singapore{
+    width: 300px;
+    height: 450px;
+    background-image: url(https://images.unsplash.com/photo-1533281808624-e9b07b4294ff?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1852&q=80);
+    background-size: cover;
+    background-position: right;
+}
+
+#singapore #name{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin-top:410px;
+    background-color: rgb(255, 255, 255);
+}
+
+#singapore #name i{
+    color: grey;
+    margin-left: 10px;
+}
+
+#singapore #name h5{
+    color: grey;
+    margin-left: 10px;
+}
+
+
+#india{
+    width: 300px;
+    height: 450px;
+    background-image: url(https://images.unsplash.com/photo-1585506942812-e72b29cef752?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1938&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#india #name{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 40px;
+    margin-top:410px;
+    background-color: rgb(255, 255, 255);
+}
+
+#india #name i{
+    color: grey;
+    margin-left: 10px;
+}
+
+#india #name h5{
+    color: grey;
+    margin-left: 10px;
+}
+
+
+
+#bg2{
+    width: 100%;
+    height: 70%;
+    background-image: url(https://images.unsplash.com/photo-1432958820763-f53004484ceb?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1952&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+#overly2{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.26);
+}
+
+#content{
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(0%,-50%);
+    width: 500px;
+}
+
+#content h1{
+    font-size: 50px;
+    font-weight: 500;
+    color: #fff;
+}
+
+#content p{
+    font-size: 13px;
+    margin-top: 15px;
+    color: #fff;
+}
+
+#content button{
+    padding: 5px 15px;
+    border: 2px solid #fff;
+    border-radius: 50px;
+    margin-top: 15px;
+    color: #fff;
+    background-color: transparent;
+}
+
+
+#bg3{
+    position: relative;
+    width: 100%;
+    height: 30%;
+    background-color: rgb(36, 36, 36);
+}
+
+#contect{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    height: 50%;
+    text-align: center;
+}
+
+#contect h2{
+    color: #fff;
+}
+
+#social{
+    margin-top: 15px;
+}
+
+#social i{
+    color: #fff;
+    margin-right: 10px;
+}
+
+#contect p{
+    font-size: 12px;
+    color: #fff;
+    margin-top: 15px;
+}
